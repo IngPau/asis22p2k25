@@ -31,5 +31,23 @@ namespace CapaVista_Menu
             CapaVista_Seguridad.frmBitacora bitacora = new CapaVista_Seguridad.frmBitacora();
             bitacora.ShowDialog();
         }
+
+        private void identificacionAlumnoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Crear una instancia del form IdentificacionAlumno
+            IdentificacionAlumno frm = new IdentificacionAlumno();
+
+            //Mostrar el formulario
+            frm.Show();
+
+        }
+
+        private void catalogosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           Frm_Navegador frm = new Frm_Navegador();
+           frm.Show();
+        }
+
+
     }
 }
